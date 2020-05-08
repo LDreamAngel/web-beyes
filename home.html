@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>贝叶科技-首页</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
-    <style>
-        .div{
-            font-family: "Noto Sans SC";
-        }
-    </style>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <script src="./plugins/jquery.min.js"></script>
 </head>
 <body>
-    <div class="div">思源黑体</div>
-    <div>思源黑体</div>
+    <section>
+        <header id="head"></header>
+        <footer></footer>
+    </section>
 </body>
+<script>
+    $('#head').load('./components/head.html');
+</script>
 </html>
