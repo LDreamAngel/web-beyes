@@ -47,11 +47,12 @@
     margin-top: 60px;
     height: 500px;
 }
+.banner .carousel-item{
+    height: 500px;
+}
 .banner img{
     opacity:0.4;
-    height: 100%;
-    width: auto !important;
-    /* background:rgba(255,255,255,0.3); */
+    height:100% ;
 }
 .banner .carousel-caption{
     top:0;
@@ -72,7 +73,6 @@
 }
 /* 愿景，皮肤病AI辅助诊断方案 */
 .vision{
-    /* height: 260px; */
     padding: 75px;
 }
 /* 核心技术，应用领域，合作伙伴 */
