@@ -5,6 +5,7 @@ html,body,section{
     background-color: #555555;
     font-family: "Noto Sans SC";
     font-size: 16px;
+    font-weight: 300;
     color: #D7D7D7;
 }
 /* 头部 */
@@ -12,12 +13,13 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 60px;
     padding: 0 50px;
-    background-color: rgba(51, 51, 51,0.5);
+    background-color: rgba(51, 51, 51,0.7);
     box-shadow: 0 2px 8px 0 #fbfbfd14;
     color: #aaa;
 }
@@ -109,4 +111,16 @@ footer div>img{
 }
 .statement li>p:last-child{
     padding-left: 15px;
+}
+
+/* 二级标题专用 */
+.subtitle{
+    width: 194px;
+    height: 30px;
+    margin: 0 auto 30px;
+    text-align: center;
+    line-height: 30px;
+    border-left: solid 3px #70B603;
+    border-right: solid 3px #70B603;
+    font-size: 28px;
 }
