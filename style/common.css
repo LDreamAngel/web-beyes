@@ -19,6 +19,7 @@ header{
     padding: 0 50px;
     background-color: rgba(51, 51, 51,0.5);
     box-shadow: 0 2px 8px 0 #fbfbfd14;
+    color: #aaa;
 }
 header h1{
     width: 143px;
@@ -51,6 +52,7 @@ header div{
    text-align: center;
    font-weight: 200;
 }
+header div a{color: #aaa;}
 
 /* 脚部 */
 footer{

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贝叶科技-新闻动态</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <script src="./plugins/jquery.min.js"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <section>
+        <header id="head"></header>
+        <footer id="foot"></footer>
+    </section>
+</body>
+<script>
+    $('#head').load('./components/head.html');
+    $('#foot').load('./components/foot.html');
+
+    $(function () {
+        // 获取新闻列表
+        function getNewsList(){
+            $.getJSON("js/news.json", function (data) {
+                console.log(data)
+            })
+        }
+
+        getNewsList()
+    })
+</script>
+</html>
