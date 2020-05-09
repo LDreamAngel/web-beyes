@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "model_text": "皮肤病诊断全支持",
+    "part": [
+      {
+        "id": 11,
+        "subtitle": "皮肤病理",
+        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+      },
+      {
+        "id": 12,
+        "subtitle": "皮肤镜",
+        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+      },
+      {
+        "id": 13,
+        "subtitle": "皮肤临床照片",
+        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+      },
+      {
+        "id": 14,
+        "subtitle": "皮肤CT",
+        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "model_text": "皮肤医生全服务",
+    "part": [
+      {
+        "id": 21,
+        "subtitle": "诊断",
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+      },
+      {
+        "id": 22,
+        "subtitle": "科研",
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+      },
+      {
+        "id": 23,
+        "subtitle": "教学",
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+      }
+    ]
+  }
+]
