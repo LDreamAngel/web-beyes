@@ -10,7 +10,9 @@ html,body,section{
 }
 /* 头部 */
 header{
-    position: absolute;
+    position: fixed;
+    /* position: sticky; */
+    /* position: absolute; */
     top: 0;
     left: 0;
     z-index: 100;

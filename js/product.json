@@ -5,25 +5,25 @@
       {
         "id": 11,
         "subtitle": "皮肤病理",
-        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic": "./static/images/product/banner.jpg",
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
       },
       {
         "id": 12,
         "subtitle": "皮肤镜",
-        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic": "./static/images/product/banner.jpg",
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
       },
       {
         "id": 13,
         "subtitle": "皮肤临床照片",
-        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic": "./static/images/product/banner.jpg",
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
       },
       {
         "id": 14,
         "subtitle": "皮肤CT",
-        "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic": "./static/images/product/banner.jpg",
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
       }
     ]
@@ -53,24 +53,24 @@
     "part": [
       {
         "id": 41,
-        "pic1": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic2": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic3": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic4": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"      
+        "pic1": "./static/images/product/banner.jpg",
+        "pic2": "./static/images/product/banner.jpg",
+        "pic3": "./static/images/product/banner.jpg",
+        "pic4": "./static/images/product/banner.jpg"      
       },
       {
         "id": 42,
-        "pic1": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic2": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic3": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic4": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"      
+        "pic1": "./static/images/product/banner.jpg",
+        "pic2": "./static/images/product/banner.jpg",
+        "pic3": "./static/images/product/banner.jpg",
+        "pic4": "./static/images/product/banner.jpg"      
       },
       {
         "id": 43,
-        "pic1": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic2": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic3": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
-        "pic4": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"      
+        "pic1": "./static/images/product/banner.jpg",
+        "pic2": "./static/images/product/banner.jpg",
+        "pic3": "./static/images/product/banner.jpg",
+        "pic4": "./static/images/product/banner.jpg"      
       }
     ]
   }

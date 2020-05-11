@@ -5,25 +5,25 @@
             {
                 "id": 11,
                 "subtitle": "复杂病灶识别",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+                "pic": "./static/images/core/banner.jpg",
                 "blurb": "拥有微小病变识别、可解释深度学习建模、高清病理影像交互等多项医学影像关键技术。"
             },
             {
                 "id": 12,
                 "subtitle": "分类模型",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+                "pic": "./static/images/core/banner.jpg",
                 "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
             },
             {
                 "id": 13,
                 "subtitle": "标题三",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+                "pic": "./static/images/core/banner.jpg",
                 "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
             },
             {
                 "id": 14,
                 "subtitle": "标题四",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+                "pic": "./static/images/core/banner.jpg",
                 "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
             }
         ]
@@ -34,19 +34,19 @@
             {
                 "id": 21,
                 "subtitle": "研发实力",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+                "pic": "./static/images/core/banner.jpg",
                 "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
             },
             {
                 "id": 22,
                 "subtitle": "学术论文",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+                "pic": "./static/images/core/banner.jpg",
                 "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
             },
             {
                 "id": 23,
                 "subtitle": "学术活动",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+                "pic": "./static/images/core/banner.jpg",
                 "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
             }
         ]

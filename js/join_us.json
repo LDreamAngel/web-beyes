@@ -5,17 +5,17 @@
             {
                 "id": 11,
                 "subtitle": "极客空间",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"
+                "pic": "./static/images/join_us/banner.jpg"
             },
             {
                 "id": 12,
                 "subtitle": "自由讨论",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"
+                "pic": "./static/images/join_us/banner.jpg"
             },
             {
                 "id": 13,
                 "subtitle": "室外桃源",
-                "pic": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"
+                "pic": "./static/images/join_us/banner.jpg"
             }
         ]
     },
