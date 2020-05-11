@@ -9,13 +9,14 @@ html,body,section{
 }
 /* 头部 */
 header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 60px;
+    min-width: 1280px;
     padding: 0 50px;
     background-color: rgba(51, 51, 51,0.5);
     box-shadow: 0 2px 8px 0 #fbfbfd14;
@@ -109,4 +110,66 @@ footer div>img{
 }
 .statement li>p:last-child{
     padding-left: 15px;
+}
+
+/* 一级标题 */
+.big-title{
+    font-size: 40px;
+    font-weight: 650;
+    color: #F2F2F2;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+/* 二级标题，带绿框的 */
+.medium-title{
+    width: 200px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 28px;
+    color: #D7D7D7;
+    text-align: center;
+    border-left:3px solid  rgba(112, 182, 3, 1);
+    border-right:3px solid  rgba(112, 182, 3, 1);
+}
+/* 三级标题，带灰框 */
+.small-title{
+    width: 175px;
+    height: 35px;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #D7D7D7;
+    text-align: center;
+    border:3px solid #737373;
+    margin: 0 auto 30px;
+}
+/* 文本1 */
+.text1{
+    line-height: normal;
+    color: #D7D7D7;
+    text-align: center;
+}
+/* 文本2 */
+.text2{
+    line-height: normal;
+    color: #D7D7D7;
+    text-align: left;
+}
+/* 核心技术，应用领域，合作伙伴 */
+.module{
+    /* width: 1200px; */
+    margin: auto;
+    padding: 80px calc((100vw - 1200px)/2) 65px;
+    border-top: 1px solid rgba(127, 127, 127, 1);
+}
+.module .module-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 30px;
+}
+.module .module-item3{
+    width: 390px;
+}
+.module .module-item2{
+    width: 550px;
 }

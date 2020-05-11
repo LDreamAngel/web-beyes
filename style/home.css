@@ -1,47 +1,3 @@
-/* 一级标题 */
-.big-title{
-    font-size: 40px;
-    font-weight: 650;
-    color: #F2F2F2;
-    text-align: center;
-    margin: 0 auto 40px;
-}
-/* 二级标题，带绿框的 */
-.medium-title{
-    width: 200px;
-    margin: auto;
-    font-weight: bold;
-    font-size: 28px;
-    color: #D7D7D7;
-    text-align: center;
-    border-left:3px solid  rgba(112, 182, 3, 1);
-    border-right:3px solid  rgba(112, 182, 3, 1);
-}
-/* 三级标题，带灰框 */
-.small-title{
-    width: 175px;
-    height: 35px;
-    line-height: 28px;
-    font-weight: 400;
-    font-size: 20px;
-    color: #D7D7D7;
-    text-align: center;
-    border:3px solid #737373;
-    margin: 0 auto 30px;
-}
-/* 文本1 */
-.text1{
-    line-height: normal;
-    color: #D7D7D7;
-    text-align: center;
-}
-/* 文本2 */
-.text2{
-    line-height: normal;
-    color: #D7D7D7;
-    text-align: left;
-}
-
 /* 大轮播 */
 .banner{
     margin-top: 60px;
@@ -76,22 +32,21 @@
     padding: 75px;
 }
 /* 核心技术，应用领域，合作伙伴 */
-.module{
+/* .module{
     padding: 80px 0 65px;
     border-top: 1px solid rgba(127, 127, 127, 1);
-}
-.module .module-box{
+} */
+/* .module .module-box{
     display: flex;
     justify-content: space-between;
     padding: 70px 10% 30px;
-}
-.module .module-item{
-    width: 32%;
-}
+} */
+/* .module .module-item3{
+    width: 390px;
+} */
 
 /* 合作伙伴的轮播 */
 .cooperative-partner{
-    padding: 0 10%;
     margin-top: 70px;
 }
 .cooperative-partner span{

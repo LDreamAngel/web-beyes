@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/core.css">
     <script src="./plugins/jquery.min.js"></script>
     <style>
        
@@ -16,6 +17,34 @@
 <body>
     <section>
         <header id="head"></header>
+        <!-- banner -->
+        <div class="banner">
+            <img src="./static/images/core/u91.jpg" style="opacity: 0.4;" alt="">
+            <p>核心技术</p>
+        </div>
+        <!-- 贝叶 plus -->
+        <div class="plus">
+            <div class="medium-title">贝叶 plus</div>
+            <p class="plus-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasceLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce
+            </p>
+            <div class="plus-classification">
+                <p>数据</p>
+                <p>算法</p>
+                <p>算力</p>
+            </div>
+        </div>
+        <!-- 核心算法 -->
+        <div class="module">
+            <div class="medium-title">核心算法</div>
+            <div class="module-box core_algorithm"></div>
+        </div>
+        <!-- 贝叶科研 -->
+        <div class="module">
+            <div class="medium-title">贝叶科研</div>
+            <div class="module-box scientific_research">
+                
+            </div>
+        </div>
         <footer id="foot"></footer>
     </section>
 </body>
@@ -27,7 +56,33 @@
         // 获模块列表
         function getData(){
             $.getJSON("js/core.json", function (data) {
-                console.log(data)
+                // console.log(data)/
+                let [core_algorithm,scientific_research]=['','']
+                // 核心算法
+                data.core_algorithm.part.forEach(val=>{
+                    core_algorithm+=`
+                    <div class="module-item2">
+                    <div class="small-title">${val.subtitle}</div>
+                    <div class="module-content">
+                        <img src="${val.pic}" alt="">
+                        <p>${val.blurb}</p>
+                    </div>
+                </div>
+                    `
+                })
+                $('.core_algorithm').append(core_algorithm)
+
+                // 贝叶科研
+                data.scientific_research.part.forEach(val=>{
+                    scientific_research+=`
+                    <div class="module-item3">
+                    <p class="small-title">${val.subtitle}</p>
+                    <p class="text2">${val.blurb}</p>
+                    <img src="${val.pic}" alt="">
+                </div>
+                    `
+                })
+                $('.scientific_research').append(scientific_research)
             })
         }
 

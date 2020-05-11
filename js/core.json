@@ -1,7 +1,6 @@
-[
-    {
+{
+    "core_algorithm":{
         "id": 1,
-        "model_text": "核心算法",
         "part": [
             {
                 "id": 11,
@@ -29,9 +28,8 @@
             }
         ]
     },
-    {
+    "scientific_research":{
         "id": 2,
-        "model_text": "贝叶科研",
         "part": [
             {
                 "id": 21,
@@ -53,4 +51,4 @@
             }
         ]
     }
-]
+}
