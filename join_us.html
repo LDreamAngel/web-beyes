@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/join_us.css">
     <script src="./plugins/jquery.min.js"></script>
     <style>
        
@@ -16,6 +17,33 @@
 <body>
     <section>
         <header id="head"></header>
+        <!-- banner -->
+        <div class="banners">
+            <img src="./static/images/join_us/u462.jpg" style="opacity: 0.4;" alt="">
+            <p>加入我们</p>
+        </div>
+        <!-- 工作在贝叶 -->
+        <div class="module">
+            <div class="medium-title">工作在贝叶</div>
+            <div class="module-box work"></div>    
+        </div>
+        <!-- 生活在贝叶 -->
+        <div class="module">
+            <div class="medium-title">生活在贝叶</div>
+            <div class="module-box life"></div>    
+        </div>
+        <!-- 成长在贝叶 -->
+        <div class="module">
+            <div class="medium-title">成长在贝叶</div>
+            <div class="module-box grow_up"></div>    
+        </div>
+        
+        <!-- 期待优秀小伙伴的加入，与我们一同迈向卓越 -->
+        <div class="vision">
+            <p class="big-title">期待优秀小伙伴的加入，与我们一同迈向卓越</p>
+            <p class="small-title">简历投递</p>
+            <p class="website" >hr@be-yes.com</p>
+        </div>     
         <footer id="foot"></footer>
     </section>
 </body>
@@ -26,8 +54,53 @@
     $(function () {
         // 获模块列表
         function getData(){
-            $.getJSON("js/beyes.json", function (data) {
+            $.getJSON("js/join_us.json", function (data) {
                 console.log(data)
+                let [work,life,grow_up]=['','','']
+                // 工作在贝叶
+                data.work.part.forEach(val=>{
+                    work+=`
+                    <div class="module-item3">
+                    <p class="small-title">${val.subtitle}</p>
+                    <img src="${val.pic}" alt="">
+                </div>
+                    `          
+                })
+                $('.work').append(work)
+
+                // 生活在贝叶
+                data.life.part.forEach(val=>{
+                    let blurb=''
+                    val.blurb.forEach(item=>{
+                        blurb+=`
+                        <p><span class="spot">·</span>${item}</p>
+                        `
+                    })
+                    life+=`
+                    <div>
+                    <div class="small-title" style="margin-left: 0;">${val.subtitle}</div>
+                    <div>${blurb}</div>
+                </div>
+                    `          
+                })
+                $('.life').html(life)
+
+                // 成长在贝叶
+                data.grow_up.part.forEach(val=>{
+                    let blurb=''
+                    val.blurb.forEach(item=>{
+                        blurb+=`
+                        <p><span class="spot">·</span>${item}</p>
+                        `
+                    })
+                    grow_up+=`
+                    <div class="module-item2">
+                    <div class="small-title" style="margin-left: 0;">${val.subtitle}</div>
+                    <div>${blurb}</div>
+                </div>
+                    `          
+                })
+                $('.grow_up').html(grow_up)
             })
         }
 

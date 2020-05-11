@@ -239,6 +239,10 @@ footer div>img{
 .cooperative-partner .carousel-item{
     height: 170px;
 }
+/* 愿景，皮肤病AI辅助诊断方案 */
+.vision{
+    padding: 75px;
+}
 /* 二级标题专用 */
 .subtitle{
     width: 194px;

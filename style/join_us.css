@@ -1,0 +1,19 @@
+/* 工作在贝叶 */
+.module-item3>img{
+    width: 380px;
+    height: 285px;
+} 
+/* 期待优秀小伙伴的加入，与我们一同迈向卓越  */
+.vision{
+    border-top: 1px solid rgba(127, 127, 127, 1);
+}
+.vision .website{
+    font-weight: 400;
+    font-size: 26px;
+    color: #70B603;
+    text-align: center;
+}
+/* 点 */
+.spot{
+    margin-right: 10px;
+}
