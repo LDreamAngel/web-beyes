@@ -50,7 +50,6 @@
   },
 "application_area":  {
   "id": 3,
-  "model_text": "应用领域",
   "part": [
     {
       "id": 31,
@@ -71,7 +70,6 @@
 },
 "cooperative_partner":{
   "id": 4,
-  "model_text": "合作伙伴",
   "part": [
     {
       "id": 41,

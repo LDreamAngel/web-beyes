@@ -1,0 +1,14 @@
+.auxiliary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px ;
+}
+.auxiliary img{
+    width: 100px;
+    height: 100px;
+}
+.auxiliary-item img{
+    width: 470px;
+    height: 200px;
+}

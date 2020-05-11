@@ -1,7 +1,6 @@
-[
-  {
+{
+  "support":{
     "id": 1,
-    "model_text": "皮肤病诊断全支持",
     "part": [
       {
         "id": 11,
@@ -29,9 +28,8 @@
       }
     ]
   },
-  {
+  "service":{
     "id": 2,
-    "model_text": "皮肤医生全服务",
     "part": [
       {
         "id": 21,
@@ -49,5 +47,31 @@
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
       }
     ]
+  },
+  "cooperative_partner":{
+    "id": 4,
+    "part": [
+      {
+        "id": 41,
+        "pic1": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic2": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic3": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic4": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"      
+      },
+      {
+        "id": 42,
+        "pic1": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic2": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic3": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic4": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"      
+      },
+      {
+        "id": 43,
+        "pic1": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic2": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic3": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg",
+        "pic4": "http://img5.imgtn.bdimg.com/it/u=3104686528,572431609&fm=26&gp=0.jpg"      
+      }
+    ]
   }
-]
+}
