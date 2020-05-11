@@ -1,0 +1,27 @@
+.module{
+    /* padding: 70px 0 30px; */
+    display: flex;
+    justify-content: space-between;
+}
+.module>img{
+    width: 300px;
+    height: 200px;
+}
+.module>div{
+    width: 800px;
+}
+.news-title{
+    color: #F2F2F2;
+    border-left:3px solid  rgba(112, 182, 3, 1);
+    padding-left: 10px;
+}
+.news-title:nth-of-type(1){
+    font-weight: bold;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.news-title:nth-of-type(2){
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/news.css">
     <script src="./plugins/jquery.min.js"></script>
     <style>
        
@@ -16,6 +17,13 @@
 <body>
     <section>
         <header id="head"></header>
+         <!-- banner -->
+         <div class="banners">
+            <img src="./static/images/news/u288.jpg" style="opacity: 0.4;" alt="">
+            <p>新闻动态</p>
+        </div>
+        <!-- 列表 -->
+        <div class="news"></div>
         <footer id="foot"></footer>
     </section>
 </body>
@@ -27,7 +35,27 @@
         // 获取新闻列表
         function getNewsList(){
             $.getJSON("js/news.json", function (data) {
-                console.log(data)
+                // console.log(data)
+                let news=''
+                data.forEach((val,i)=>{
+                let border=''
+                if(i===0){
+                    border+=`<div class="module" style="border:none;">`
+                }else{
+                    border+=`<div class="module">`
+                }
+                    news+=`
+                ${border}
+                <img src="${val.pic}" alt="">
+                <div>
+                    <p class="news-title">${val.title}</p>
+                    <p class="news-title">${val.date}</p>
+                    <p class="text2">${val.text}</p>
+                </div>
+            </div>
+                    `
+                })
+                $(".news").html(news)
             })
         }
 
