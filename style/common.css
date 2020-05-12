@@ -11,16 +11,14 @@ html,body,section{
 /* 头部 */
 header{
     position: fixed;
-    /* position: sticky; */
-    /* position: absolute; */
     top: 0;
     left: 0;
     z-index: 100;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 60px;
     min-width: 1280px;
+    height: 60px;
     padding: 0 50px;
     background-color: rgba(51, 51, 51,0.7);
     box-shadow: 0 2px 8px 0 #fbfbfd14;
@@ -55,9 +53,14 @@ header div{
    width: 80px;
    line-height: 54px;
    text-align: center;
-   font-weight: 200;
 }
-header div a{color: #aaa;}
+header a{
+    display: inline-block;
+    width: 100%;
+}
+header div a{
+    color: #aaa;
+}
 
 /* 脚部 */
 footer{
@@ -119,16 +122,18 @@ footer div>img{
 /* 一级标题 */
 .big-title{
     font-size: 40px;
-    font-weight: 650;
+    font-weight: 800;
     color: #F2F2F2;
     text-align: center;
     margin: 0 auto 40px;
 }
 /* 二级标题，带绿框的 */
 .medium-title{
-    /* width: 200px; */
-    /* min-width: 200px; */
-    max-width: 300px;
+    text-align: center;
+}
+.medium-title span{
+    display: inline-block;
+    padding: 2px 30px;
     margin: auto;
     font-weight: bold;
     font-size: 28px;
@@ -142,11 +147,10 @@ footer div>img{
     width: 175px;
     height: 35px;
     line-height: 28px;
-    font-weight: 400;
     font-size: 20px;
     color: #D7D7D7;
     text-align: center;
-    border:3px solid #737373;
+    border:2px solid #737373;
     margin: 0 auto 30px;
 }
 /* 文本1 */
@@ -154,14 +158,12 @@ footer div>img{
     line-height: normal;
     color: #D7D7D7;
     text-align: center;
-    font-weight: 400;
 }
 /* 文本2 */
 .text2{
     line-height: normal;
     color: #D7D7D7;
     text-align: left;
-    font-weight: 400;
 }
 /* 每个页面的banner */
 .banners{
@@ -169,7 +171,14 @@ footer div>img{
     position: relative;
     margin-top: 60px;
 }
-.banners p{
+.banners .cover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.cover p{
     position: absolute;
     top: 0;
     z-index: 10;
@@ -178,13 +187,25 @@ footer div>img{
     line-height: 300px;
     text-align: center;
     font-size: 40px;
-    font-weight: 650;
+    font-weight: 800;
     color: #F2F2F2;
     text-align: center;
 }
 .banners img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+/* 按钮 */
+.btn-secondary {
+    width: 125px;
+    background-color: #7f7f7f;
+    border:none;
+    font-size: 18px;
+    font-weight: 200;
+}
+.btn-secondary:hover {
+    background-color: #929191;
 }
 /* 核心技术，应用领域，合作伙伴 */
 .module{
@@ -224,7 +245,7 @@ footer div>img{
     width: 370px;
     height: 200px;
 }
-/* 合作伙伴，合作医院的轮播 */
+/* 合作医院的轮播 */
 .cooperative-partner{
     margin-top: 70px;
 }
@@ -244,15 +265,4 @@ footer div>img{
 /* 愿景，皮肤病AI辅助诊断方案 */
 .vision{
     padding: 75px;
-}
-/* 二级标题专用 */
-.subtitle{
-    width: 194px;
-    height: 30px;
-    margin: 0 auto 30px;
-    text-align: center;
-    line-height: 30px;
-    border-left: solid 3px #70B603;
-    border-right: solid 3px #70B603;
-    font-size: 28px;
 }

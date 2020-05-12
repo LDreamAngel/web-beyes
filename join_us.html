@@ -11,17 +11,14 @@
     <link rel="stylesheet" href="./style/join_us.css">
     <script src="./plugins/jquery.min.js"></script>
     <script src="./js/common.js"></script>
-    <style>
-       
-    </style>
 </head>
 <body>
     <section>
         <header id="head"></header>
         <!-- banner -->
         <div class="banners">
-            <img src="./static/images/join_us/banner.jpg" style="opacity: 0.4;" alt="">
-            <p>加入我们</p>
+            <img src="./static/images/join_us/banner.jpg" alt="">
+            <div class="cover"><p>加入我们</p></div>
         </div>
         <!-- 工作在贝叶 -->
         <div class="module">
@@ -56,7 +53,6 @@
         // 获模块列表
         function getData(){
             $.getJSON("js/join_us.json", function (data) {
-                console.log(data)
                 let [work,life,grow_up]=['','','']
                 // 工作在贝叶
                 data.work.part.forEach(val=>{
