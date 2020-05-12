@@ -1,0 +1,104 @@
+.beyes{
+    color: #f2f2f2;
+    font-weight: 400;
+    border-bottom: solid 4px #70b603;
+}
+/* banner */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 60px auto 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.banner .cover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+/* 公司简介 */
+.profile {
+    width: 100%;
+    height: 400px;
+    padding-top: 85px;
+}
+
+.text {
+    width: 800px;
+    margin: auto;
+}
+
+.text p {
+    margin-bottom: 20px;
+    text-indent: 2rem;
+    line-height: 24px;
+}
+
+/* 创始人团队 */
+.founder-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.founder,.founder-pic,.founder-info{
+    width: 227px;
+    height: 318px;
+}
+.founder{
+    overflow: hidden;
+}
+
+.founder-pic>img{
+    width: 100%;
+    height: 100%;
+}
+.founder-info{
+    padding: 20px 7px;
+    background-color: rgba(24, 23, 23, 0.8);
+    font-size: 12px;
+    transform:translateY(-70px);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.founder:hover .founder-info {
+    -webkit-transform: translateY(-318px);
+    transform: translateY(-318px);
+  }
+.founder-name{
+    font-size:20px;
+    color:#FFFFFF;
+}
+.founder-post{
+    font-size:16px;
+}
+.founder-glorys{
+    margin: 20px 0;
+}
+.founder-glorys p,.founder-experience p{
+line-height: 16px;
+}
+
+/* 发展历程 */
+.time{
+    display: flex;
+    width: 1200px;
+    border-bottom: solid 2px #D7D7D7;
+}
+.time>li{
+    width: 300px;
+    text-align: center;
+}
+.time>li>span{
+    display: inline-block;
+    padding: 6px 20px;
+    border: solid 1px #D7D7D7;
+}

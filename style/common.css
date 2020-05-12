@@ -46,7 +46,7 @@ header ul li{
    text-align: center;
    cursor: pointer;
 }
-header ul li:hover,.current_tab{
+header ul li:hover{
     color: #f2f2f2;
     font-weight: 400;
     border-bottom: solid 4px #70b603;

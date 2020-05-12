@@ -1,3 +1,8 @@
+.product{
+    color: #f2f2f2;
+    font-weight: 400;
+    border-bottom: solid 4px #70b603;
+}
 /* 皮肤病诊断全辅助 */
 .auxiliary{
     display: flex;

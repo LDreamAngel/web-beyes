@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/news.css">
     <script src="./plugins/jquery.min.js"></script>
-    <style>
-       
-    </style>
+    <script src="./js/common.js"></script>
 </head>
 <body>
     <section>
@@ -23,7 +21,7 @@
             <p>新闻动态</p>
         </div>
         <!-- 列表 -->
-        <div class="news"></div>
+        <div class="news-list"></div>
         <footer id="foot"></footer>
     </section>
 </body>
@@ -55,7 +53,7 @@
             </div>
                     `
                 })
-                $(".news").html(news)
+                $(".news-list").html(news)
             })
         }
 
