@@ -126,17 +126,33 @@ line-height: 16px;
 .histogram li:nth-of-type(4){
     transform: translateX(-440px);
  }
-.histogram div{
+ .histogram>li>p{
+    text-align: left;
+    font-weight: 400;
+    line-height: 60px;
+    transition: 1s;
+    color: transparent;
+}
+.histogram>li>div{
     width: 410px;
     height: 95px;
-    background-color: rgba(112, 182, 3,0.3)
+    line-height: 95px;
+    text-align: center;
+    background-color: rgba(112, 182, 3,0.3);
+    font-size:24px ;
+    font-weight: 700;
+    transition: 1s;
+    color: transparent;
 }
 .histogram li:nth-of-type(2) div{
     height: 130px;
+    line-height: 130px;
 }
 .histogram li:nth-of-type(3) div{
     height: 180px;
+    line-height: 180px;
 }
 .histogram li:nth-of-type(4) div{
     height: 215px;
+    line-height: 215px;
 }

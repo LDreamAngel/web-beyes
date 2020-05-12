@@ -52,27 +52,19 @@
             <ul class="histogram">
                 <li>
                     <p>3月：贝叶科技在北京成立</p>
-                    <div>
-                       <span>实验室萌芽</span>
-                    </div>
+                    <div>实验室萌芽</div>
                 </li>
                 <li>
                     <p>6月：北京自然科学基金申请成功</p>
-                    <div>
-                       <span>科研积淀</span>
-                    </div>
+                    <div>科研积淀</div>
                 </li>
                 <li>
                     <p>9月：皮肤远程平台Demo开发完成</p>
-                    <div>
-                       <span>产品成型</span>
-                    </div>
+                    <div>产品成型</div>
                 </li>
                 <li>
                     <p></p>
-                    <div>
-                       <span>厚积薄发</span>
-                    </div>
+                    <div>厚积薄发</div>
                 </li>
             </ul>
         </div>
@@ -122,6 +114,16 @@
         }
 
         getData()
+        
+        // 柱状图的动画
+        $('.histogram>li').mouseover((e)=>{
+            $('.histogram>li>p').css({'color': 'transparent'})
+            $('.histogram>li>div').css({
+                'color': 'transparent',
+                'background-color': 'rgba(112, 182, 3,0.3)'})
+            $(e.delegateTarget.firstElementChild).css({'color': '#D7D7D7'})
+            $(e.delegateTarget.lastElementChild).css({'color': '#fff','background-color': 'rgba(145, 233, 3, 0.5)'})
+        })
     })
 </script>
 
