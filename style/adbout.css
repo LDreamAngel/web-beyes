@@ -90,14 +90,14 @@ line-height: 16px;
 /* 发展历程 */
 .time{
     display: flex;
+    justify-content: space-around;
     width: 1200px;
+    padding: 0 55px;
     border-bottom: solid 2px #D7D7D7;
 }
 .time>li{
-    width: 300px;
     margin-bottom: 10px;
     text-align: center;
-    border: solid 1px red;
 }
 .time>li>span{
     display: inline-block;
@@ -110,23 +110,33 @@ line-height: 16px;
    display: flex;
 }
 .histogram li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width:410px;
     height: 250px;
     position: relative;
-    /* transform: translateX(-318px); */
-    border: solid 1px #D7D7D7;
  }
 .histogram li:nth-of-type(2){
-    transform: translateX(-110px);
+    transform: translateX(-147px);
  }
 .histogram li:nth-of-type(3){
-    transform: translateX(-210px);
+    transform: translateX(-295px);
  }
 .histogram li:nth-of-type(4){
-    transform: translateX(-310px);
+    transform: translateX(-440px);
  }
 .histogram div{
     width: 410px;
     height: 95px;
     background-color: rgba(112, 182, 3,0.3)
+}
+.histogram li:nth-of-type(2) div{
+    height: 130px;
+}
+.histogram li:nth-of-type(3) div{
+    height: 180px;
+}
+.histogram li:nth-of-type(4) div{
+    height: 215px;
 }
