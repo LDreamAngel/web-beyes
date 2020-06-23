@@ -35,21 +35,21 @@
                 // console.log(data)
                 let news=''
                 data.forEach((val,i)=>{
-                let border=''
-                if(i===0){
-                    border+=`<div class="module" style="border:none;">`
-                }else{
-                    border+=`<div class="module">`
-                }
-                    news+=`
-                ${border}
-                <img src="${val.pic}" alt="">
-                <div>
-                    <p class="news-title">${val.title}</p>
-                    <p class="news-title">${val.date}</p>
-                    <p class="text2">${val.text}</p>
+                    let border=''
+                    if(i===0){
+                        border+=`<div class="module" style="border:none;">`
+                    }else{
+                        border+=`<div class="module">`
+                    }
+                        news+=`
+                    ${border}
+                    <img src="${val.pic}" alt="">
+                    <div>
+                        <p class="news-title">${val.title}</p>
+                        <p class="news-title">${val.date}</p>
+                        <p class="text2">${val.text}</p>
+                    </div>
                 </div>
-            </div>
                     `
                 })
                 $(".news-list").html(news)
