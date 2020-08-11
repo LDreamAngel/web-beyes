@@ -5,26 +5,26 @@
       {
         "id": 11,
         "subtitle": "皮肤病理",
-        "pic": "./static/images/product/banner.jpg",
-        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+        "pic": "./static/images/product/u286.jpg",
+        "blurb": "覆盖浅层皮肤血管周围炎、浅层皮肤肿瘤等<br/>结合型式结构诊断模型<br/>多任务深度学习"
       },
       {
         "id": 12,
         "subtitle": "皮肤镜",
-        "pic": "./static/images/product/banner.jpg",
-        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+        "pic": "./static/images/product/u288.png",
+        "blurb": "覆盖皮肤色素性肿瘤良恶性诊断<br />提供辅助AI诊断"
       },
       {
         "id": 13,
         "subtitle": "皮肤临床照片",
-        "pic": "./static/images/product/banner.jpg",
-        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+        "pic": "./static/images/product/u287.jpg",
+        "blurb": "覆盖皮肤肿瘤良恶性早期筛查<br />提供辅助AI诊断<br />特色专病AI识别"
       },
       {
         "id": 14,
         "subtitle": "皮肤CT",
-        "pic": "./static/images/product/banner.jpg",
-        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+        "pic": "./static/images/product/u289.png",
+        "blurb": "覆盖白癜风等色素环缺失皮肤病<br />提供图像AI分析"
       }
     ]
   },
@@ -34,17 +34,17 @@
       {
         "id": 21,
         "subtitle": "诊断",
-        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+        "blurb": "覆盖银屑病、扁平苔藓、硬化性苔藓等特色专病以及日光性角化病、基底细胞癌、鳞癌等皮肤肿瘤<br />医生端，提供具有病理金标准对标的专业诊断建议<br />患者端，提供便捷快速的皮肤病图像识别诊断应用"
       },
       {
         "id": 22,
         "subtitle": "科研",
-        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+        "blurb": "一站式的影像管理及标注协作平台，丰富的课题申请和合作经验（包括国自然和北自然等），为医生提供成熟且完善的科研课题合作及成果转化服务"
       },
       {
         "id": 23,
         "subtitle": "教学",
-        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+        "blurb": "皮肤病理远程交互病理影像教学示例<br />皮肤组织结构以及特异性病变AI识别<br />提供分步诊断线索，提高医生学习效率"
       }
     ]
   },
@@ -53,24 +53,9 @@
     "part": [
       {
         "id": 41,
-        "pic1": "./static/images/product/banner.jpg",
-        "pic2": "./static/images/product/banner.jpg",
-        "pic3": "./static/images/product/banner.jpg",
-        "pic4": "./static/images/product/banner.jpg"      
-      },
-      {
-        "id": 42,
-        "pic1": "./static/images/product/banner.jpg",
-        "pic2": "./static/images/product/banner.jpg",
-        "pic3": "./static/images/product/banner.jpg",
-        "pic4": "./static/images/product/banner.jpg"      
-      },
-      {
-        "id": 43,
-        "pic1": "./static/images/product/banner.jpg",
-        "pic2": "./static/images/product/banner.jpg",
-        "pic3": "./static/images/product/banner.jpg",
-        "pic4": "./static/images/product/banner.jpg"      
+        "pic1": "./static/images/partner/beijing.png",
+        "pic2": "./static/images/partner/301.png",
+        "pic3": "./static/images/partner/bjtongren.png"   
       }
     ]
   }

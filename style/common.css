@@ -145,7 +145,7 @@ footer div>img{
 }
 /* 三级标题，带灰框 */
 .small-title{
-    width: 175px;
+    width: 240px;
     height: 35px;
     line-height: 28px;
     font-size: 20px;
@@ -159,12 +159,16 @@ footer div>img{
     line-height: normal;
     color: #D7D7D7;
     text-align: center;
+    white-space: nowrap;
 }
 /* 文本2 */
 .text2{
     line-height: normal;
     color: #D7D7D7;
     text-align: left;
+}
+.height_limit{
+    height: 155px;
 }
 /* 每个页面的banner */
 .banners{
@@ -244,7 +248,7 @@ footer div>img{
 }
 .module-item3 img{
     width: 370px;
-    height: 200px;
+    height: 277.5px;
 }
 /* 合作医院的轮播 */
 .cooperative-partner{
@@ -262,6 +266,8 @@ footer div>img{
 }
 .cooperative-partner .carousel-item{
     height: 170px;
+    display: flex;
+    justify-content: space-around;
 }
 /* 愿景，皮肤病AI辅助诊断方案 */
 .vision{

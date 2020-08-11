@@ -5,17 +5,17 @@
             {
                 "id": 11,
                 "subtitle": "极客空间",
-                "pic": "./static/images/join_us/banner.jpg"
+                "pic": "./static/images/join_us/u534.png"
             },
             {
                 "id": 12,
                 "subtitle": "自由讨论",
-                "pic": "./static/images/join_us/banner.jpg"
+                "pic": "./static/images/join_us/u535.jpg"
             },
             {
                 "id": 13,
                 "subtitle": "室外桃源",
-                "pic": "./static/images/join_us/banner.jpg"
+                "pic": "./static/images/join_us/u536.jpg"
             }
         ]
     },
@@ -26,9 +26,8 @@
                 "id": 21,
                 "subtitle": "灵活办公",
                 "blurb":[
-                    "灵活上下班时间",
-                    "告别996",
-                    "带薪年假"
+                    "灵活上下班",
+                    "告别996"
                 ]
             },
             {
@@ -45,8 +44,7 @@
                 "subtitle": "玩个痛快",
                 "blurb":[
                     "体育活动",
-                    "花式团建",
-                    "每年旅游"
+                    "花式团建"
                 ]
             },
             {

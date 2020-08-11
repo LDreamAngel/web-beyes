@@ -4,27 +4,32 @@
         "part": [
             {
                 "id": 11,
-                "subtitle": "复杂病灶识别",
-                "pic": "./static/images/core/banner.jpg",
-                "blurb": "拥有微小病变识别、可解释深度学习建模、高清病理影像交互等多项医学影像关键技术。"
+                "subtitle": "可解释智能诊断模型",
+                "pic": "./static/images/core/u176.png",
+                "blurb": "深度学习提取微小特征<br / >解决医学图像中病变特征不显著问题"
             },
             {
                 "id": 12,
-                "subtitle": "分类模型",
-                "pic": "./static/images/core/banner.jpg",
-                "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+                "subtitle": "微小病灶识别",
+                "pic": "./static/images/core/u177.png",
+                "blurb": "多任务深度学习<br />分步诊断线索提示<br />提供特异性病变区域识别"
+            }
+        ]
+    },
+    "RD_platform":{
+        "id": 3,
+        "part": [
+            {
+                "id": 31,
+                "subtitle": "高清病理影像交互",
+                "pic": "./static/images/core/u102.jpg",
+                "blurb": "可供多人远程协同标注的病理影像标注平台<br / >兼容数字扫描切片以及显微镜拍照截图等多种格式"
             },
             {
-                "id": 13,
-                "subtitle": "标题三",
-                "pic": "./static/images/core/banner.jpg",
-                "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
-            },
-            {
-                "id": 14,
-                "subtitle": "标题四",
-                "pic": "./static/images/core/banner.jpg",
-                "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nasce"
+                "id": 32,
+                "subtitle": "影像协同标注平台",
+                "pic": "./static/images/core/u178.png",
+                "blurb": "多倍率图像目标检测<br />高清病理影像交互模式"
             }
         ]
     },
@@ -34,20 +39,20 @@
             {
                 "id": 21,
                 "subtitle": "研发实力",
-                "pic": "./static/images/core/banner.jpg",
-                "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+                "pic": "./static/images/core/u179.jpg",
+                "blurb": "科研团队成员来自清华大学，北京航空航天大学等高校，核心团队有专业的医工结合交叉学科背景，丰富的海外学习进修经历"
             },
             {
                 "id": 22,
                 "subtitle": "学术论文",
-                "pic": "./static/images/core/banner.jpg",
-                "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+                "pic": "./static/images/core/u183.png",
+                "blurb": "2019年科研团队发表多篇顶级会议论文，CVPR会议1篇，MICCAI会议2篇，中国生物医学工程大会1篇，所发论文均为医疗影像相关的研究成果。2020年发表MICAD会议论文1篇。"
             },
             {
                 "id": 23,
                 "subtitle": "学术活动",
-                "pic": "./static/images/core/banner.jpg",
-                "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget."
+                "pic": "./static/images/core/u180.jpg",
+                "blurb": "2019年科研团队分别参加了MICCAI会议，中国生物医学工程大会等学术会议，并在中国生物医学工程大会上做了口头报告。2020年科研团队参加在英国牛津举办的MICAD会议, 作为唯一来自中国的报告人，向全世界科研工作者汇报科研成果。"
             }
         ]
     }
