@@ -1,12 +1,13 @@
 .home{
     color: #f2f2f2;
-    font-weight: 400;
+    font-weight: 600;
     border-bottom: solid 4px #70b603;
 }
 /* 大轮播 */
 .banner{
     margin-top: 60px;
     height: 500px;
+    background-color: rgba(31, 31, 31, 0.7);
 }
 .banner .carousel-item{
     height: 500px;

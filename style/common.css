@@ -3,9 +3,9 @@ html,body,section{
     min-width: 1280px;
     height: 100%;
     background-color: #555555;
-    font-family: "Noto Sans SC";
+    font-family: "Noto Sans CJK","Source Han Sans";
     font-size: 16px;
-    font-weight: 300;
+    /* font-weight: 300; */
     color: #D7D7D7;
 }
 /* 头部 */
@@ -21,7 +21,7 @@ header{
     height: 60px;
     padding: 0 50px;
     background-color: rgba(51, 51, 51,0.95);
-    box-shadow: 0 2px 8px 0 #4b4a4a;
+    box-shadow: 0 2px 8px 0 #161616;
     color: #aaa;
 }
 header h1{
@@ -40,18 +40,18 @@ header ul{
 }
 header ul li{
    width: 80px;
-   line-height: 54px;
+   line-height: 60px;
    text-align: center;
    cursor: pointer;
 }
 header ul li:hover{
     color: #f2f2f2;
-    font-weight: 400;
+    font-weight: 600;
     border-bottom: solid 4px #70b603;
 }
 header div{
    width: 80px;
-   line-height: 54px;
+   line-height: 60px;
    text-align: center;
 }
 header a{
@@ -107,12 +107,16 @@ footer div>img{
    display: flex;
    justify-content: center;
 }
+.statement li>p{
+  width: 50%;
+}
 .statement li:last-child{
     margin-top: 10px;
     font-size: 12px;
     color: #7F7F7F;
 }
 .statement li>p:first-child{
+    text-align: right;
     padding-right: 15px;
    border-right: solid 1px #7F7F7F;
 }
@@ -181,7 +185,7 @@ footer div>img{
     top: 0;
     width: 100%;
     height: 300px;
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgba(31, 31, 31, 0.7);
 }
 .cover p{
     position: absolute;
