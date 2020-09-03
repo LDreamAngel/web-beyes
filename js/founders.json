@@ -6,7 +6,7 @@
         "id": 11,
         "name": "张晶",
         "post": "创始人 首席科学家",
-        "pic": "./static/images/about/zhang.png",
+        "pic": "./static/images/about/zhang.jpg",
         "glorys": [
           {
             "text": "北京市科技新星（ 2019）"
@@ -40,7 +40,7 @@
         "id": 11,
         "name": "李伟平",
         "post": " 联合创始人 CEO",
-        "pic": "./static/images/about/li.png",
+        "pic": "./static/images/about/li.jpg",
         "glorys": [
           {
             "text": "清华大学 经管学院MBA"
@@ -65,7 +65,7 @@
         "id": 11,
         "name": "何校栋",
         "post": "联合创始人 CTO",
-        "pic": "./static/images/about/he.png",
+        "pic": "./static/images/about/he.jpg",
         "glorys": [
           {
             "text": "清华大学 生物医学工程系硕士"

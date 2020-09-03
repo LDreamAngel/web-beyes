@@ -11,7 +11,7 @@
       {
         "id": 12,
         "subtitle": "皮肤镜",
-        "pic": "./static/images/product/u288.png",
+        "pic": "./static/images/product/u288.jpg",
         "blurb": "覆盖皮肤色素性肿瘤良恶性诊断<br />提供辅助AI诊断"
       },
       {
@@ -23,7 +23,7 @@
       {
         "id": 14,
         "subtitle": "皮肤CT",
-        "pic": "./static/images/product/u289.png",
+        "pic": "./static/images/product/u289.jpg",
         "blurb": "覆盖白癜风等色素环缺失皮肤病<br />提供图像AI分析"
       }
     ]
@@ -53,9 +53,9 @@
     "part": [
       {
         "id": 41,
-        "pic1": "./static/images/partner/beijing.png",
-        "pic2": "./static/images/partner/301.png",
-        "pic3": "./static/images/partner/bjtongren.png"   
+        "pic1": "./static/images/partner/beijing.jpg",
+        "pic2": "./static/images/partner/301.jpg",
+        "pic3": "./static/images/partner/bjtongren.jpg"   
       }
     ]
   }

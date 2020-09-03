@@ -5,13 +5,13 @@
             {
                 "id": 11,
                 "subtitle": "可解释智能诊断模型",
-                "pic": "./static/images/core/u176.png",
+                "pic": "./static/images/core/u176.jpg",
                 "blurb": "深度学习提取微小特征<br / >解决医学图像中病变特征不显著问题"
             },
             {
                 "id": 12,
                 "subtitle": "微小病灶识别",
-                "pic": "./static/images/core/u177.png",
+                "pic": "./static/images/core/u177.jpg",
                 "blurb": "多任务深度学习<br />分步诊断线索提示<br />提供特异性病变区域识别"
             }
         ]
@@ -28,7 +28,7 @@
             {
                 "id": 32,
                 "subtitle": "影像协同标注平台",
-                "pic": "./static/images/core/u178.png",
+                "pic": "./static/images/core/u178.jpg",
                 "blurb": "多倍率图像目标检测<br />高清病理影像交互模式"
             }
         ]
@@ -45,7 +45,7 @@
             {
                 "id": 22,
                 "subtitle": "学术论文",
-                "pic": "./static/images/core/u183.png",
+                "pic": "./static/images/core/u183.jpg",
                 "blurb": "2019年科研团队发表多篇顶级会议论文，CVPR会议1篇，MICCAI会议2篇，中国生物医学工程大会1篇，所发论文均为医疗影像相关的研究成果。2020年发表MICAD会议论文1篇。"
             },
             {

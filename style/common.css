@@ -1,11 +1,27 @@
+/* Source Han Sans CN Regular */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Source Han Sans CN Regular";
+  src: url("../static/fonts/Source Han Sans CN Regular.eot");/* IE9 Compat Modes */ /*这里以及下面的src后面的地址填的都是自己本地的相对地址*/
+  src: url("../static/fonts/Source Han Sans CN Regular.woff2") format("woff2"),
+       url("../static/fonts/Source Han Sans CN Regular.woff") format("woff"),/* Modern Browsers */
+       url("../static/fonts/Source Han Sans CN Regular.ttf") format("truetype"),/* Safari, Android, iOS */
+       url("../static/fonts/Source Han Sans CN Regular.eot?#iefix") format("embedded-opentype"),/* IE6-IE8 */
+       url("../static/fonts/Source Han Sans CN Regular.svg") format("svg");/* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+  
+  
 html,body,section{
     width: 100%;
     min-width: 1280px;
     height: 100%;
     background-color: #555555;
-    font-family: "Noto Sans CJK","Source Han Sans";
+    font-family: "Source Han Sans CN Regular";
     font-size: 16px;
-    /* font-weight: 300; */
+    font-weight: 400;
     color: #D7D7D7;
 }
 /* 头部 */

@@ -75,10 +75,10 @@
   "part": [
     {
       "id": 41,
-      "pic1": "./static/images/partner/beijing.png",
-      "pic2": "./static/images/partner/301.png",
+      "pic1": "./static/images/partner/beijing.jpg",
+      "pic2": "./static/images/partner/301.jpg",
       "pic3": "./static/images/partner/qinghua.jpg",
-      "pic4": "./static/images/partner/bjtongren.png"      
+      "pic4": "./static/images/partner/bjtongren.jpg"      
     }
   ]
 }
